@@ -4,6 +4,245 @@ body {
     font-size: 16px;
 }
 
+footer{
+    background-color: #4A5568;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+h1, h2, h3, p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+header{
+    background-color: white;
+    size: 18px; 
+}
+
+header > div.container{
+    display: grid;
+    grid-column: auto;
+    column-gap: 250px;
+    grid-template-areas: 
+        "heading nav"; 
+}
+
+header > div.container > nav{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-weight: bold;
+}
+
+img{
+    width: 10%;
+}
+
+section.learn-about> div.container > h2{
+    size: 24px;
+    color: #48BB78;
+}
+
+section.learn-about > div.container > div.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0px;
+    grid-template-areas:
+        "card card card";
+    padding-bottom: 35px;
+}
+
+section.learn-about > div.container > div.cards > div.card{
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px grey;
+    width: 93%;
+    margin: 0px;
+}
+
+section.learn-about > div.container > div.cards > div.card > div.card-body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section.learn-about > div.container > div.cards > div.card > div.card-body > h3{
+    color: #48BB78;
+    font-size: 21px;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+section.learn-about > div.container > div.cards > div.card > img{
+    width: 100%;
+}
+
+section.overview-hero{
+    background-color: #E2E8F0;
+    padding: 25px;
+    padding-bottom: 30px;
+}
+
+section.overview-hero > div.container{
+    margin: auto;
+    padding-left: 110px;
+}
+
+section.overview-hero > div.container > div.overview-hero-image > img{
+    float: left;
+    padding-right: 70px;
+    width: 18%;
+}
+
+section.overview-hero > div.container > div.overview-hero-text{
+    padding-right: 170px;
+    padding-top: 5px;
+}
+
+section.overview-hero > div.container > div.overview-hero-text > h2{
+    font-size: 24px;
+}
+
+section.newsletter{
+    background-color: #48BB78;
+    color: white;
+}
+
+section.newsletter > div.container{
+    padding: 50px;
+}
+
+section.newsletter > div.container > h3{
+    text-align: center;
+}
+
+section.newsletter > div.container > p{ 
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+section.newsletter > div.container > form > div.form-group{
+    padding-left: 230px;
+}
+
+section.newsletter > div.container > form > div.form-group > input#email{
+    width: 42%;
+    padding: 15px; 
+    border-radius: 7px;
+    border: none;
+    float: left;
+}
+
+section.newsletter > div.container > form > button.btn{
+    background-color: #5A67D8;
+    padding: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+section.stories > div.container{
+    padding-top: 40px;
+}
+
+section.stories > div.container > h2, a{
+    color: #5A67DB;
+}
+
+section.stories > div.container > article{
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 0px;
+    grid-template-areas: 
+        "picture article";
+}
+
+section.stories > div.container > article > div.article-body{
+    padding-top: 5px;
+    padding-bottom: 45px;
+    margin: 0px;
+    grid-area: article;
+}
+
+section.stories > div.container > article > div.article-body > h3{
+    size: 18px;
+    padding-right: 180px;
+}
+
+section.stories > div.container > article > div.article-body > p > a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.stories > div.container > article > img{
+    border-radius: 100px;
+    float: left;
+    width: 80%;
+    grid-area: picture;
+}
+
+section.testing{
+    background-color: #4A5568;
+    color: white;
+}
+
+section.testing > div.container{
+    padding: 90px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+    grid-template-areas: 
+        "text button";
+}
+
+section.testing > div.container > div.testing-description{
+    grid-area: text;  
+}
+
+section.testing > div.container > div.cta{
+    grid-area: button;
+    float: right;
+    padding-top: 55px;
+    padding-right: 90px;
+    padding-left: 50px;
+}
+
+section.testing > div.container > div.cta > a.btn{
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    float: left;
+}
+
+ul li a:hover{
+    color: #5A67D8;
+}
+
+ul li a{
+    padding-right: 10px;
+    color: #6B7280;
+    text-decoration: none;
+}
+
 .container {
     margin: 0 auto;
     max-width: 960px;
