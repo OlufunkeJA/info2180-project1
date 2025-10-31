@@ -123,6 +123,7 @@ section.newsletter > div.container > p{
 section.newsletter > div.container > div.message > p{ 
     padding-left: 230px;
     padding-right: 230px;
+    text-align: center;
     margin: 3px;
     color: rgb(201, 38, 38);
 }
