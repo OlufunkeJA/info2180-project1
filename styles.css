@@ -120,6 +120,13 @@ section.newsletter > div.container > p{
     padding-right: 230px;
 }
 
+section.newsletter > div.container > div.message > p{ 
+    padding-left: 230px;
+    padding-right: 230px;
+    margin: 3px;
+    color: rgb(201, 38, 38);
+}
+
 section.newsletter > div.container > form > div.form-group{
     padding-left: 230px;
 }
